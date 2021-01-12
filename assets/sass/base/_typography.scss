@@ -11,12 +11,27 @@
     font-family: $open-sans;
 
     &__text {
-        
+
         &--title {
             font-weight: $bold;
         }
 
         &--paragraph {
+            font-size: $small;
+        }
+    }
+}
+
+.information {
+    font-family: $open-sans;
+
+    h2 , h4 {
+        font-weight: $bold;
+    }
+
+    &__progress {
+    
+        &--description p {
             font-size: $small;
         }
     }

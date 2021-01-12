@@ -10646,8 +10646,18 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
   font-size: 14px;
 }
 
+.information {
+  font-family: "Open Sans", sans-serif;
+}
+.information h2, .information .h2, .information h4, .information .h4 {
+  font-weight: 700;
+}
+.information__progress--description p {
+  font-size: 14px;
+}
+
 .principal {
-  height: 50rem;
+  height: 52rem;
   background-image: url(../images/bg-hero.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -10655,7 +10665,7 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
 .principal__text {
   width: 22rem;
   position: relative;
-  top: 5rem;
+  top: 7rem;
   left: 7rem;
 }
 
@@ -10663,6 +10673,26 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, auto);
+}
+
+.information__title {
+  text-align: center;
+}
+.information__progress {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 6rem;
+  margin: 3rem 12rem;
+}
+.information__progress--graphic {
+  display: flex;
+  justify-content: flex-end;
+}
+.information__progress--description {
+  justify-content: flex-start;
+}
+.information__progress--description h4, .information__progress--description .h4 {
+  margin-bottom: 0.5rem;
 }
 
 .navigation {
