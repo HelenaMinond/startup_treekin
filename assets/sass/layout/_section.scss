@@ -1,0 +1,38 @@
+.cost {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/bg-price.svg);
+
+    &__title {
+        text-align: center;
+        color: $white;
+    }
+    
+    &__card {
+        width: 19rem;
+        padding: .5rem;
+        margin: 4rem 2rem;
+
+        &--information h4 {
+            margin: .5rem 0;
+        }
+        
+        &--information ul {
+            list-style-position: inside;
+            line-height: 200%;
+        }
+
+        .nula {
+            list-style: none;
+            color: $white;
+        }
+
+        &--information button {
+            background-color: $ball-blue;
+            border: 0px solid;
+            color: $white;
+            width: 100%;
+            padding: .4rem 0;
+        }
+    }
+}

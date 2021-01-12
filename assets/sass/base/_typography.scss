@@ -36,3 +36,19 @@
         }
     }
 }
+
+.cost {
+    font-family: $open-sans;
+
+    &__card {
+    
+        &--information h2 {
+            font-family: $raleway;
+            font-weight: $bold;
+        }
+
+        &--information li , &--information button {
+            font-size: $small;
+        }
+    }
+}
