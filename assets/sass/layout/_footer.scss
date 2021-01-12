@@ -1,4 +1,16 @@
 .final {
     display: flex;
     justify-content: space-between;
+    padding: 2rem 5rem;
+    color: $white;
+    background-color: $raising-black;
+
+    &__information ul{
+        display: flex;
+        list-style: none;
+
+        li {
+            margin-right: 2rem;
+        }
+    }
 }

@@ -10668,8 +10668,23 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
 }
 
 .final {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.final {
   display: flex;
   justify-content: space-between;
+  padding: 2rem 5rem;
+  color: #FFF;
+  background-color: #221D23;
+}
+.final__information ul {
+  display: flex;
+  list-style: none;
+}
+.final__information ul li {
+  margin-right: 2rem;
 }
 
 .principal {

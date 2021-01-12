@@ -1,3 +1,4 @@
+//Sección nav-navigation
 .navigation {
     font-family: $raleway;
     font-size: $small;
@@ -7,6 +8,7 @@
     }
 }
 
+//Sección header-principal
 .principal {
     font-family: $open-sans;
 
@@ -22,6 +24,7 @@
     }
 }
 
+//Seccion main-information
 .information {
     font-family: $open-sans;
 
@@ -37,6 +40,7 @@
     }
 }
 
+//Sección section-cost
 .cost {
     font-family: $open-sans;
 
@@ -51,4 +55,10 @@
             font-size: $small;
         }
     }
+}
+
+//Sección footer-final
+.final {
+    font-family: $raleway;
+    font-size: $small;
 }
