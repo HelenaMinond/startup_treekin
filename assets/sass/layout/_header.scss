@@ -1,0 +1,13 @@
+.principal {
+    height: 50rem;
+    background-image: url(../images/bg-hero.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &__text {
+        width: 22rem;
+        position: relative;
+        top: 5rem;
+        left: 7rem;
+    }
+}

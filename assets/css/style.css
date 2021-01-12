@@ -10636,6 +10636,29 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
   font-weight: 700;
 }
 
+.principal {
+  font-family: "Open Sans", sans-serif;
+}
+.principal__text--title {
+  font-weight: 700;
+}
+.principal__text--paragraph {
+  font-size: 14px;
+}
+
+.principal {
+  height: 50rem;
+  background-image: url(../images/bg-hero.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.principal__text {
+  width: 22rem;
+  position: relative;
+  top: 5rem;
+  left: 7rem;
+}
+
 .contenedor {
   display: grid;
   grid-template-columns: 1fr;
@@ -10645,22 +10668,15 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
 .navigation {
   display: flex;
   justify-content: space-between;
-  margin: 1rem 4rem;
+  margin: 1rem 7rem;
 }
-.navigation li, .navigation img {
-  margin-right: 1.5rem;
-}
-.navigation__left {
+.navigation__left, .navigation__right {
   display: flex;
   align-items: center;
 }
 .navigation__left--list {
   list-style: none;
   display: flex;
-}
-.navigation__right {
-  display: flex;
-  align-items: center;
 }
 .navigation__right--list {
   list-style: none;
@@ -10670,6 +10686,9 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
   border: 0px solid;
   color: #FFF;
   padding: 0.3rem 0.5rem;
+}
+.navigation li, .navigation img {
+  margin-right: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

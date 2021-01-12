@@ -6,3 +6,18 @@
         font-weight: $bold;
     }
 }
+
+.principal {
+    font-family: $open-sans;
+
+    &__text {
+        
+        &--title {
+            font-weight: $bold;
+        }
+
+        &--paragraph {
+            font-size: $small;
+        }
+    }
+}
