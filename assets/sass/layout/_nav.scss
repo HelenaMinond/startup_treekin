@@ -3,13 +3,13 @@
     justify-content: space-between;
     margin: 1rem 4rem;
 
+    li, img {
+        margin-right: 1.5rem;
+    }
+
     &__left {
         display: flex;
         align-items: center;
-
-        img {
-            margin-right: 1rem;
-        }
 
         &--list {
             list-style: none;
@@ -24,9 +24,12 @@
         &--list {
             list-style: none;
         }
-    }
-}
 
-li {
-    margin-right: 1rem;
+        &--button {
+            background-color: $ball-blue;
+            border: 0px solid;
+            color: $white;
+            padding: .3rem .5rem;
+        }
+    }
 }
