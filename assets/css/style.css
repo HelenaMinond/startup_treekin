@@ -10619,6 +10619,27 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes reaparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.information__progress--graphic {
+  animation-name: reaparecer;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
 * {
   box-sizing: border-box;
 }
