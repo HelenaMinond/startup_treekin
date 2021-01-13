@@ -10659,6 +10659,9 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
 .cost {
   font-family: "Open Sans", sans-serif;
 }
+.cost__title {
+  font-weight: 700;
+}
 .cost__card--information h2, .cost__card--information .h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -10692,6 +10695,7 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
   background-image: url(../images/bg-hero.svg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .principal__text {
   width: 22rem;
@@ -10719,11 +10723,18 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
   display: flex;
   justify-content: flex-end;
 }
+.information__progress--graphic img {
+  width: 20rem;
+  height: 10rem;
+}
 .information__progress--description {
   justify-content: flex-start;
 }
 .information__progress--description h4, .information__progress--description .h4 {
   margin-bottom: 0.5rem;
+}
+.information__progress--description h4, .information__progress--description .h4, .information__progress--description p {
+  width: 20rem;
 }
 
 .navigation {
@@ -10753,18 +10764,21 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
 }
 
 .cost {
-  display: flex;
-  justify-content: center;
   background-image: url(../images/bg-price.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .cost__title {
   text-align: center;
-  color: #FFF;
+}
+.cost__cards {
+  display: flex;
+  justify-content: center;
 }
 .cost__card {
   width: 19rem;
   padding: 0.5rem;
-  margin: 4rem 2rem;
+  margin: 2rem;
 }
 .cost__card--information h4, .cost__card--information .h4 {
   margin: 0.5rem 0;

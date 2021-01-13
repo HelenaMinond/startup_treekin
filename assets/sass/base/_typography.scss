@@ -44,6 +44,10 @@
 .cost {
     font-family: $open-sans;
 
+    &__title {
+        font-weight: $bold;
+    }
+
     &__card {
     
         &--information h2 {
