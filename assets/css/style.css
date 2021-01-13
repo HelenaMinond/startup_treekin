@@ -10741,7 +10741,7 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
 
 @media only screen and (max-width: 767.98px) {
   .information {
-    margin: 3rem 0 5rem 0;
+    margin-top: 3rem;
   }
   .information__title {
     text-align: center;
@@ -10840,14 +10840,18 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
 }
 .cost {
   background-image: url(../images/bg-price.svg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  max-width: 100%;
 }
 .cost__title {
   text-align: center;
+  color: #FFF;
+  margin-top: 14rem;
 }
 .cost__cards {
-  display: flex;
   justify-content: center;
 }
 .cost__card {
@@ -10860,7 +10864,7 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
 }
 .cost__card--information ul {
   list-style-position: inside;
-  line-height: 200%;
+  line-height: 250%;
 }
 .cost__card .nula {
   list-style: none;

@@ -1,36 +1,33 @@
 .cost {
     background-image: url(../images/bg-price.svg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    height: 100%;
+    max-width: 100%;
     &__title {
         text-align: center;
+        color: $white;
+        margin-top: 14rem;
     }
-
     &__cards {
-        display: flex;
         justify-content: center;
     }
-    
     &__card {
         width: 19rem;
         padding: .5rem;
         margin: 2rem;
-
         &--information h4 {
             margin: .5rem 0;
         }
-        
         &--information ul {
             list-style-position: inside;
-            line-height: 200%;
+            line-height: 250%;
         }
-
         .nula {
             list-style: none;
             color: $white;
         }
-
         &--information button {
             background-color: $ball-blue;
             border: 0px solid;
