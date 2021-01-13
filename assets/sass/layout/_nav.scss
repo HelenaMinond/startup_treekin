@@ -3,6 +3,7 @@
     .navigation {
         display: flex;
         justify-content: space-between;
+        margin: 2rem;
 
         &__left , &__right {
             display: flex;
