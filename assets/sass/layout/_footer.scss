@@ -1,16 +1,41 @@
-.final {
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 5rem;
-    color: $white;
-    background-color: $raising-black;
+//Media queris para diseño mobile (extra small and small devices)
+@media only screen and (max-width: 767.98px) {
+    .final {
+        color: $white;
+        background-color: $raising-black;
+        text-align: center;
+        padding: 2rem;
+    
+        &__information ul{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            margin-bottom: 1.5rem;;
+        
+            li {
+                margin-right: 2rem;
+            }
+        }
+    }
+}
 
-    &__information ul{
+
+//Media queris para diseño desktop (medium, large and extra large devices)
+@media only screen and (min-width: 768px) {
+    .final {
         display: flex;
-        list-style: none;
+        justify-content: space-between;
+        padding: 2rem 5rem;
+        color: $white;
+        background-color: $raising-black;
 
-        li {
-            margin-right: 2rem;
+        &__information ul{
+            display: flex;
+            list-style: none;
+
+            li {
+                margin-right: 2rem;
+            }
         }
     }
 }
