@@ -3,7 +3,6 @@
     .navigation {
         display: flex;
         justify-content: space-between;
-        margin: 1rem 7rem;
 
         &__left , &__right {
             display: flex;
@@ -31,7 +30,6 @@
 
 //Media queris para diseño desktop (medium, large and extra large devices)
 @media only screen and (min-width: 768px) {
-
     .navigation {
         display: flex;
         justify-content: space-between;

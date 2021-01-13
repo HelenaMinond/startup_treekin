@@ -1,14 +1,35 @@
-.principal {
-    height: 52rem;
-    background-image: url(../images/bg-hero.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+//Media queris para diseño mobile (extra small and small devices)
+@media only screen and (max-width: 767.98px) {
+    .principal {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto);
 
-    &__text {
-        width: 22rem;
+        &__text {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+//Media queris para diseño desktop (medium, large and extra large devices)
+@media only screen and (min-width: 768px) {
+    .principal {
         position: relative;
-        top: 7rem;
-        left: 7rem;
+
+        &__text {
+            width: 22rem;
+            position: absolute;
+            top: 7rem;
+            left: 7rem;
+        }
+
+        img {
+            max-width: 100%;
+        }
     }
 }
