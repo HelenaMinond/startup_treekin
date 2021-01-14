@@ -1,39 +1,90 @@
-.cost {
-    background-image: url(../images/bg-price.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    max-width: 100%;
-    &__title {
-        text-align: center;
-        color: $white;
-        margin-top: 14rem;
-    }
-    &__cards {
-        justify-content: center;
-    }
-    &__card {
-        width: 19rem;
-        padding: .5rem;
-        margin: 2rem;
-        &--information h4 {
-            margin: .5rem 0;
-        }
-        &--information ul {
-            list-style-position: inside;
-            line-height: 250%;
-        }
-        .nula {
-            list-style: none;
+//Media queris para diseño mobile (extra small and small devices)
+@media only screen and (max-width: 767.98px) {
+    .cost {
+        background-image: url(../images/bg-price.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 15rem;
+
+        &__title {
             color: $white;
+            text-align: center;
         }
-        &--information button {
-            background-color: $ball-blue;
-            border: 0px solid;
+
+        &__cards {
+            display: grid;
+            grid-template-rows: repeat(2, auto);
+            justify-content: center;
+        }
+
+        &__card {
+            width: 19rem;
+            padding: .5rem;
+            margin: 2rem;
+            &--information h4 {
+                margin: .5rem 0;
+            }
+            &--information ul {
+                list-style-position: inside;
+                line-height: 250%;
+            }
+            .nula {
+                list-style: none;
+                color: $white;
+            }
+            &--information button {
+                background-color: $ball-blue;
+                border: 0px solid;
+                color: $white;
+                width: 100%;
+                padding: .4rem 0;
+            }
+        }
+    }
+}
+
+//Media queris para diseño desktop (medium, large and extra large devices)
+@media only screen and (min-width: 768px) {
+    .cost {
+        background-image: url(../images/bg-price.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 12rem;
+
+        &__title {
             color: $white;
-            width: 100%;
-            padding: .4rem 0;
+            text-align: center;
+        }
+
+        &__cards {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            justify-content: center;
+        }
+
+        &__card {
+            width: 19rem;
+            padding: .5rem;
+            margin: 2rem;
+            &--information h4 {
+                margin: .5rem 0;
+            }
+            &--information ul {
+                list-style-position: inside;
+                line-height: 250%;
+            }
+            .nula {
+                list-style: none;
+                color: $white;
+            }
+            &--information button {
+                background-color: $ball-blue;
+                border: 0px solid;
+                color: $white;
+                width: 100%;
+                padding: .4rem 0;
+            }
         }
     }
 }

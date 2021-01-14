@@ -1,0 +1,122 @@
+//Media queris para diseño mobile (extra small and small devices)
+@media only screen and (max-width: 767.98px) {
+    .cost {
+        position: relative;
+
+        &__grup {
+            position: absolute;
+            margin: auto;
+            right: 0;
+            left: 0;
+
+            &--title {
+                margin-bottom: 1rem;
+                text-align: center;
+                color: $white;
+            }
+
+            &--cards {
+                display: grid;
+                grid-template-rows: repeat(2, auto);
+                justify-content: center;
+
+                .card {
+                    width: 19rem;
+                    padding: .5rem;
+                    margin: 2rem;
+                
+                    .card-body h4 {
+                        margin: .5rem 0;
+                    }
+
+                    .card-body ul {
+                        list-style-position: inside;
+                        line-height: 250%;
+                    }
+
+                    .nula {
+                        list-style: none;
+                        color: $white;
+                    }
+
+                    .card-body button {
+                        background-color: $ball-blue;
+                        border: 0px solid;
+                        color: $white;
+                        width: 100%;
+                        padding: .4rem 0;
+                    }
+                }
+            }
+        }
+
+        &--img {
+            height: 2000px;
+        }
+            
+
+            img {
+                max-width: 100%;
+            }
+    }
+}
+
+
+//Media queris para diseño desktop (medium, large and extra large devices)
+@media only screen and (min-width: 768px) {
+    .cost {
+        position: relative;
+
+        &__grup {
+            position: absolute;
+            top: 25%;
+            margin: auto;
+            right: 0;
+            left: 0;
+
+            &--title {
+                margin-bottom: 1rem;
+                text-align: center;
+                color: $white;
+            }
+
+            &--cards {
+                display: grid;
+                grid-template-columns: repeat(2, auto);
+                justify-content: center;
+
+                .card {
+                    width: 19rem;
+                    padding: .5rem;
+                    margin: 2rem;
+                
+                    .card-body h4 {
+                        margin: .5rem 0;
+                    }
+
+                    .card-body ul {
+                        list-style-position: inside;
+                        line-height: 250%;
+                    }
+
+                    .nula {
+                        list-style: none;
+                        color: $white;
+                    }
+
+                    .card-body button {
+                        background-color: $ball-blue;
+                        border: 0px solid;
+                        color: $white;
+                        width: 100%;
+                        padding: .4rem 0;
+                    }
+                }
+            }
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
