@@ -3,11 +3,9 @@
 
 //Abstracts
 @import 'abstracts/variables';
-@import 'abstracts/mixins';
 
 //Base
 @import 'base/animations';
-@import 'base/reset';
 @import 'base/typography';
 @import 'base/base';
 
@@ -18,12 +16,8 @@
 @import 'layout/main';
 @import 'layout/nav';
 @import 'layout/section';
-@import 'layout/sidebar';
 
 //Components
-@import 'components/buttons';
-@import 'components/navigation';
-@import 'components/thumbnails';
 
 //Pages
 
