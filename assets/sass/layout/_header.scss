@@ -1,17 +1,30 @@
+//Transition: Seguir a escalador con puntero para observar salto mortal.
+.salto-mortal {
+    transform: translate(956.000000, 361.000000);
+    transition-property: all;
+    transition-duration: 10s;
+}
+
+.salto-mortal:hover {
+    transform: translate(0px);
+}
+
 //Media queris para diseño mobile (extra small and small devices)
 @media only screen and (max-width: 767.98px) {
     .principal {
 
         &__text {
             margin: 0 2rem;
+            z-index: -1;
 
             h1 {
                 margin-bottom: 1rem;
             }
         }
             
-        img {
-            width: 100%;
+        svg {
+            max-width: 100%;
+            height: 100%;
         }
     }
 }
@@ -27,9 +40,10 @@
             position: absolute;
             top: 7rem;
             left: 7rem;
+            z-index: -1;
         }
     
-        img {
+        svg {
             max-width: 100%;
         }
     }
