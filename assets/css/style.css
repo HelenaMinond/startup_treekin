@@ -10884,16 +10884,17 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
 @media only screen and (max-width: 767.98px) {
   .cost {
     background-image: url(../images/bg-price.svg);
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-top: 15rem;
+    margin-top: 3rem;
   }
   .cost__title {
     color: #FFF;
     text-align: center;
+    margin-top: 7rem;
   }
   .cost__cards {
+    background-color: #333745;
     display: grid;
     grid-template-rows: repeat(2, auto);
     justify-content: center;
@@ -10941,7 +10942,7 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
   .cost__card {
     width: 19rem;
     padding: 0.5rem;
-    margin: 2rem;
+    margin: 2rem 2rem 4rem 2rem;
   }
   .cost__card--information h4, .cost__card--information .h4 {
     margin: 0.5rem 0;
